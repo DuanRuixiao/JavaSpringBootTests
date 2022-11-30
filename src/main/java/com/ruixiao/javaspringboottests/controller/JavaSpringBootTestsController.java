@@ -1,7 +1,7 @@
 package com.ruixiao.javaspringboottests.controller;
 
-import com.ruixiao.javaspringboottests.model.Customer;
-import com.ruixiao.javaspringboottests.model.CustomerRepository;
+import com.ruixiao.javaspringboottests.data.Customer;
+import com.ruixiao.javaspringboottests.data.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
